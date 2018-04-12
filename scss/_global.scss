@@ -1,5 +1,7 @@
 // Global styling for this theme
 
+@font-face {font-family: 'PresicavRg-Bold';src: url('webfonts/363C51_0_0.eot');src: url('webfonts/363C51_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/363C51_0_0.woff2') format('woff2'),url('webfonts/363C51_0_0.woff') format('woff'),url('webfonts/363C51_0_0.ttf') format('truetype');}
+
 html {
   height: 100%;
 }
@@ -13,10 +15,18 @@ h6 {
   @include heading-font;
 }
 
+.title {
+  font-family: 'PresicavRg-Bold';
+  text-align: center;
+  margin-bottom: 100px !important;
+}
+
 body {
   height: 100%;
   min-height: 35rem;
   position: relative;
+  background: url('/img/westworld.jpg') no-repeat center center fixed;
+  background-size: cover;
   @include body-font;
 }
 
