@@ -25,6 +25,7 @@ body {
   height: 100%;
   min-height: 35rem;
   position: relative;
+  background-color: black;
   background: url('../img/westworld.jpg') no-repeat center center fixed;
   background-size: cover;
   @include body-font;
@@ -36,10 +37,11 @@ body {
   min-height: 35rem;
   width: 100%;
   background-color: $secondary;
-  opacity: 0.75;
+  opacity: 0;
   z-index: -1;
   @media (min-width: 768px) {
     min-height: 0;
+    opacity: 0.75;
   }
 }
 
