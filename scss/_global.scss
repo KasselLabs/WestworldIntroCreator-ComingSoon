@@ -42,3 +42,31 @@ body {
     min-height: 0;
   }
 }
+
+$amazonite: #00cfb4 !default;
+$turquoise-surg: #00b8c8 !default;
+$rich-black: #00171f !default;
+$prussian-blue: #003459 !default;
+
+.logo {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+
+  span:nth-child(1) {
+    color: $amazonite;
+  }
+
+  span:nth-child(2) {
+    color: $turquoise-surg;
+  }
+}
+
+p {
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
